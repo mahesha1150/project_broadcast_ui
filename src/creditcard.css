@@ -19,10 +19,11 @@
   background-size: cover;
   padding: 25px;
   border-radius: 28px;
-  width: 380px;
+  width: 400px;
   /* max-width: 380px; */
   /* width: 100%; */
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
 }
 header,
 .logo {
@@ -60,4 +61,32 @@ h5.name {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+
+/* MEDIA QUERIES (tablets) */
+@media screen and (max-width: 1024px) {
+  .container {
+      width: 450px;
+      margin-left: 5px;
+      margin-top: 10px;
+  }
+
+  .dashboardStyles{
+    /* margin-top: 20px; */
+  }
+}
+
+
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 450px;
+    margin-left: 5px;
+  }
+
+  .dashboardStyles{
+    margin-top: 20px;
+  }
 }

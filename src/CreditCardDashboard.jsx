@@ -10,9 +10,9 @@ const CreditCardDashboard = () => {
 
   return (
     <>
-      <div>
+      <div className='dashboardStyles'>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <Typography variant="h6" style={{ color: "#22168d", fontWeight: 'bold', marginBottom: 10 }}>Credit Card</Typography>
+          <Typography variant="h6" style={{ color: "#22168d", fontWeight: 'bold' }}>Credit Card</Typography>
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <div className="container">

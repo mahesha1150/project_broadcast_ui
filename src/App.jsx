@@ -1,17 +1,21 @@
 import CreditCardForm from "./CreditCardForm"
 import CreditCardDashboard from "./CreditCardDashboard"
+import BackEndResponse from "./BackEndResponse";
 import { RecoilRoot } from 'recoil';
+import './index.css'
 
 const App = () => {
+
+    
+    
     return (
         <>
             <RecoilRoot>
-            <div style={{ display: "grid", gridTemplateColumns: "20% 30% 30% 20%", marginTop: 160 /*, gap: "4%" */ }}>
-                <div></div>
-                <CreditCardForm></CreditCardForm>
-                <CreditCardDashboard></CreditCardDashboard>
-                <div></div>
-            </div>
+                <div className="root">
+                    <CreditCardForm></CreditCardForm>
+                    <CreditCardDashboard></CreditCardDashboard>
+                </div>
+                    <BackEndResponse></BackEndResponse>
             </RecoilRoot>
         </>
     )
